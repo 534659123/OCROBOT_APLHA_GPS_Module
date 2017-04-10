@@ -1,6 +1,5 @@
 #include "OCROBOT_I2C_GPS.h"
-#include <Wire.h>
-#include "Variable.h"
+
 
 GPS::GPS(byte Addr)
 {

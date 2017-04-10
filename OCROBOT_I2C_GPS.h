@@ -7,6 +7,17 @@
  #include "WProgram.h"
 #endif
 
+#ifndef	WIRE_H_
+#define WIRE_H_
+#include <Wire.h>
+#endif
+
+#ifndef	VARIABLE_H_
+#define VARIABLE_H_
+#include "Variable.h"
+#endif
+
+
 #define hz1  101   //1Hz
 #define hz5  102   //5hz
 #define hz10 103   //10Hz
