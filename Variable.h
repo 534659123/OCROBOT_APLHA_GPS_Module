@@ -1,3 +1,5 @@
+#ifndef VARIABLE_H_
+#define VARIABLE_H_
 /*
 *ocrobot-迷你强
 2017年1月6日
@@ -190,3 +192,4 @@ static void UlongToByte(uint32_t Num,uint8_t *Byte)
 	}
 	
 }
+#endif
